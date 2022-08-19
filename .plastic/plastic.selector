@@ -1,0 +1,4 @@
+repository "DiscoverElPasoMVPVersion1@ElPasoAR@cloud"
+  path "/"
+    smartbranch "/main/attemptedRecovery"         
+     
