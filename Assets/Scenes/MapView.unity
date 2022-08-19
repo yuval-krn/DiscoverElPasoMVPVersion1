@@ -1935,8 +1935,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278440832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 3}
+  m_LocalPosition: {x: 0, y: -0.3, z: 0}
+  m_LocalScale: {x: 0.75, y: 2, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 631620298}
@@ -3487,8 +3487,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 3, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.75, y: 2, z: 0.75}
+  m_Center: {x: 0, y: -0.3, z: 0}
 --- !u!114 &631620303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3963,7 +3963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goMap: {fileID: 1839646534}
-  XmlDataFile: {fileID: 4900000, guid: 194c91e62e2e04978a87065b537eab46, type: 3}
+  XmlDataFile: {fileID: 4900000, guid: ad34fcf251f094eba91774f3bf6c7e4b, type: 3}
   testLineMaterial: {fileID: 2100000, guid: 335fefd499ad646d69107c1cb5574c87, type: 2}
   testPolygonMaterial: {fileID: 2100000, guid: 26ae02bdde6ce4069956eab325a040e5, type: 2}
   uvMappingStyle: 1
@@ -6288,7 +6288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461718, guid: d3a29450d5b0d457080291b65258e969, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000016292068
+      value: -0.00000016294989
       objectReference: {fileID: 0}
     - target: {fileID: 461718, guid: d3a29450d5b0d457080291b65258e969, type: 3}
       propertyPath: m_LocalRotation.x
